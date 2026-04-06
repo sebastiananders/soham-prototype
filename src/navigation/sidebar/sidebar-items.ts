@@ -1,5 +1,6 @@
 import {
   Banknote,
+  BrainCircuit,
   Calendar,
   ChartBar,
   Fingerprint,
@@ -71,6 +72,11 @@ export const sidebarItems: NavGroup[] = [
         title: "Budget tracker",
         url: "/dashboard/analytics",
         icon: Wallet,
+      },
+      {
+        title: "BMAD AI Design",
+        url: "/dashboard/bmad-ai-design",
+        icon: BrainCircuit,
       },
       // {
       //   title: "E-commerce",
